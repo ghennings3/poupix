@@ -1,0 +1,28 @@
+<svg width="420" height="120" viewBox="0 0 420 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Ícone -->
+  <g transform="translate(10,20)">
+    <defs>
+      <linearGradient id="blueGradient" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#4DA3FF"></stop>
+        <stop offset="100%" stop-color="#2563EB"></stop>
+      </linearGradient>
+    </defs>
+
+    <!-- Forma base -->
+    <path d="M40 0
+         C18 0 0 18 0 40
+         C0 62 18 80 40 80
+         C62 80 80 62 80 40
+         C80 18 62 0 40 0Z" fill="url(#blueGradient)"></path>
+
+    <!-- Linhas internas (crescimento financeiro) -->
+    <path d="M22 52 L22 38 L30 34 L30 52 Z" fill="white" opacity="0.9"></path>
+    <path d="M36 52 L36 30 L44 26 L44 52 Z" fill="white" opacity="0.9"></path>
+    <path d="M50 52 L50 22 L58 18 L58 52 Z" fill="white" opacity="0.9"></path>
+  </g>
+
+  <!-- Texto -->
+  <text x="120" y="78" font-size="56" font-weight="600" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, sans-serif" fill="#2563EB" letter-spacing="0.5">
+    Poupix
+  </text>
+</svg>
