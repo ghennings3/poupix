@@ -10,6 +10,8 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        danger: "#E93030",
+        green: "#39BE00",
         background: "var(--background)",
         foreground: "var(--foreground)",
         card: {
